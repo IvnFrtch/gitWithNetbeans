@@ -14,6 +14,10 @@ public class HelloToGit {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        showMessage();
+    }
+    
+    public static void showMessage(){
         System.out.println("hello to git");
     }
     
